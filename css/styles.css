@@ -304,10 +304,12 @@ flex-wrap: wrap;
 .logo.footer {
     display: block;
     padding-top: 60px;
+    margin-right: auto;
     margin-bottom: 20px;
 }
 
 .adress-nav-list {
+    margin-right: auto;
     padding-bottom: 60px;
 }
 
