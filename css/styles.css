@@ -141,8 +141,6 @@ letter-spacing: 0.03em;
 }
 .contacts-nav.list {
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -164,6 +162,8 @@ letter-spacing: 0.03em;
     color: var(--primery-accent-color);
 }
 .contacts-nav .link {
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: var(--primary-text-color);
 }
 /* ======Hero====== */
@@ -293,7 +293,7 @@ flex-wrap: wrap;
     border-radius: 0px 0px 4px 4px;
 }
 .team-item-text {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -303,14 +303,12 @@ flex-wrap: wrap;
 
 .logo.footer {
     display: block;
-    padding-top: 60px;
     margin-right: auto;
     margin-bottom: 20px;
 }
 
 .adress-nav-list {
     margin-right: auto;
-    padding-bottom: 60px;
 }
 
 .adress.list {
@@ -321,6 +319,8 @@ flex-wrap: wrap;
     margin-bottom: 9px;
 }
 .footer-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--primary-dark-color);
 }
 .adress-nav-list .link {
@@ -350,9 +350,7 @@ flex-wrap: wrap;
 
     /*=========Portfolio========  */
     .portfolio.title {
-        margin-right: 24px;
         margin-bottom: 4px;
-        margin-left: 24px;
     }
     .works-menu {
         justify-content: center;
@@ -399,12 +397,8 @@ flex-wrap: wrap;
     }
     .work-content-item {
         flex-basis: calc((100% - 60px) / 3);
-        border: 1px solid #EEEEEE;
     }
 
-    .work-picture {
-        margin-bottom: 20px;
-    }
     .work-content-item .title {
             font-weight: 700;
             font-size: 18px;
@@ -412,10 +406,13 @@ flex-wrap: wrap;
             letter-spacing: 0.06em;
     }
     .work-content-item .text {
-        margin-right: 24px;
-        margin-bottom: 20px;
-        margin-left: 24px;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.88;
+    }
+
+    .text-block {
+        padding: 20px 24px;
+        border: 1px solid #EEEEEE;
+        border-top: 0;
     }
