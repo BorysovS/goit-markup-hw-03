@@ -315,7 +315,8 @@ flex-wrap: wrap;
     margin-bottom: 9px;
 }
 
-.mail.list {
+.mail.list-footer {
+    list-style: none;
     margin-bottom: 9px;
 }
 .footer-section {
